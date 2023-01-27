@@ -56,7 +56,7 @@ function App() {
   return (
     <main className='board'>
       <h1>TA TE TI</h1>
-      <button onClick={resetGame}>BORRAR</button>
+      <button onClick={resetGame}>Borrar</button>
       <section className='game'>
         {
           board.map((square, index) => {
